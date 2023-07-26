@@ -8,17 +8,13 @@ with lib; let
     };
 in {
   imports = [
-    ./clang.nix
-    ./go.nix
     ./nix.nix
     ./python.nix
     ./rust.nix
     ./sql.nix
     ./ts.nix
-    ./zig.nix
     ./markdown.nix
     ./plantuml.nix
-    ./tidal.nix
     ./html.nix
   ];
 
