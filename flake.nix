@@ -344,20 +344,14 @@
           nix.enable = overrideable true;
           markdown.enable = overrideable true;
           html.enable = overrideable isMaximal;
-          clang.enable = overrideable isMaximal;
           sql.enable = overrideable isMaximal;
           rust = {
             enable = overrideable isMaximal;
             crates.enable = overrideable true;
           };
           ts.enable = overrideable isMaximal;
-          go.enable = overrideable isMaximal;
-          zig.enable = overrideable isMaximal;
           python.enable = overrideable isMaximal;
           plantuml.enable = overrideable isMaximal;
-
-          # See tidal config
-          tidal.enable = overrideable false;
         };
         vim.lsp = {
           formatOnSave = overrideable true;

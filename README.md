@@ -1,4 +1,11 @@
-# neovim-flake
+# My Tweake
+- Removed language support for languages I don't work in
+- Examined keybindings
+- Working through narrowing plugins to minimize bloat
+
+
+
+# From Original Readme:
 
 A highly configurable nix flake for neovim.
 
